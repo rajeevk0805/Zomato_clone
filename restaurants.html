@@ -4,7 +4,477 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="r-header">
+      <nav class="r-nav">
+        <a href="./index.html"
+          ><img
+            src="./assets/restaurants/b40b97e677bc7b2ca77c58c61db266fe1603954218.avif"
+            alt=""
+        /></a>
+        <div class="r-nav-center">
+          <div class="r-nav-center-l">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Patna" />
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="r-nav-center-r">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input
+              type="text"
+              placeholder="Search for restaurants, cuisine or a dish"
+            />
+          </div>
+        </div>
+        <div class="r-nav-right">
+          <a href="./login.html">Log in</a>
+          <a href="./signup.html">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="collection-main">
+        <div class="r-hero-section">
+          <div class="dine">
+            <img src="./assets/restaurants/2.avif" alt="" />
+            <p>Dining Out</p>
+          </div>
+          <div class="delivery">
+            <img src="./assets/restaurants/3.webp" alt="" />
+            <p>Delivery</p>
+          </div>
+        </div>
+        <div class="collection-body">
+          <div class="collection">
+            <h1>Collections</h1>
+            <div class="collection-desc">
+              <p>
+                Explore curated lists of top restaurants, cafes, pubs, and bars
+                in Patna, based on trends
+              </p>
+              <div class="collection-desc-right">
+                <p>All collections in Patna</p>
+                <i class="fa-solid fa-angle-right"></i>
+              </div>
+            </div>
+            <div class="collection-container">
+              <div class="collection-card1">
+                <div class="card-info">
+                  <p>Great Cafes</p>
+                  <p>13 Places <i class="fa-solid fa-angle-right"></i></p>
+                </div>
+              </div>
+              <div class="collection-card2">
+                <div class="card-info">
+                  <p>Best Luxury Dining places</p>
+                  <p>7 Places <i class="fa-solid fa-angle-right"></i></p>
+                </div>
+              </div>
+              <div class="collection-card3">
+                <div class="card-info">
+                  <p>North Indian Delicacies</p>
+                  <p>12 Places <i class="fa-solid fa-angle-right"></i></p>
+                </div>
+              </div>
+              <div class="collection-card4">
+                <div class="card-info">
+                  <p>Local Favourite Places</p>
+                  <p>8 Places <i class="fa-solid fa-angle-right"></i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="restaurants">
+        <div class="filter-buttons">
+          <button class="filter">Filters</button>
+          <button>Offers</button>
+          <button>Rating 4.5+</button>
+          <button>Pet Friendly</button>
+          <button>Outdoor Seating</button>
+          <button>Open Now</button>
+        </div>
+        <img src="./assets/restaurants/h5.png" alt="" class="offer-img" />
+
+        <p class="best-foods">Best Foods in Patna</p>
+        <div class="restaurant-card-container">
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/1.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Afraa</h3>
+              <span>4.3*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Bengali,Continental,North Indian</p>
+              <p>₹1,500 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Lodipur,Patna</p>
+              <span>1.2 km</span>
+            </div>
+            <!-- <div class="discount">
+              <i class="fi fi-rr-badge-percent"></i>
+              <p>Flat 15% Off</p>
+            </div> -->
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/2.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Cafe Zodiac</h3>
+              <span>3.4*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>North Indian,Chinese</p>
+              <p>₹1,000 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Kankarbagh,Patna</p>
+              <span>1.8 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/4.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Craft Coffee</h3>
+              <span>4.0*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Coffee,Cafe,Continental</p>
+              <p>₹800 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Anisabad,Patna</p>
+              <span>5.9 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/5.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">AB's-Absolute Barbrcues</h3>
+              <span>4.4*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>North Indian,BBQ</p>
+              <p>₹1,850 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Lodipur,Patna</p>
+              <span>559 m</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/3.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Heden Cafe</h3>
+              <span>3.9*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>North Indian,Chinese</p>
+              <p>₹1,000 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Sri Krishnapuri,Patna</p>
+              <span>2.7 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/6.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Cafe HideOut</h3>
+              <span>4.3*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Chinese,North Indian</p>
+              <p>₹1,200 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Sri Krishnapuri,Patna</p>
+              <span>1.2 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/7.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">The Royal Haveli Cafe & Restaurant</h3>
+              <span>4.0*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Chinese,North Indian</p>
+              <p>₹1,000 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Anisabad,Patna</p>
+              <span>5.9 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/8.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Ghoomar Traditional Thali Restaurant</h3>
+              <span>4.2*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Rajasthani,North Indian</p>
+              <p>₹1,000 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Khajpura,Patna</p>
+              <span>5.9 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/9.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Craft Coffee</h3>
+              <span>4.5*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Cafe,Coffee,SandWich</p>
+              <p>₹1,000 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Sri Krishnapuri,Patna</p>
+              <span>2.7 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/10.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Golden Flavour</h3>
+              <span>3.5*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>chinese,North Indian</p>
+              <p>₹1,200 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Sri Krishnapuri,Patna</p>
+              <span>3.4 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/11.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Persona</h3>
+              <span>4.4*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Chinese,North Indian</p>
+              <p>₹2,000 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Patliputra Colony,Patna</p>
+              <span>4.1 km</span>
+            </div>
+          </div>
+          <div class="restaurant-card">
+            <img src="./assets/restaurants/12.jpg" alt="" />
+            <div class="res-name-rating">
+              <h3 class="res-name">Biryani By Killo</h3>
+              <span>4.5*</span>
+            </div>
+            <div class="res-type-cost">
+              <p>Biryani,Hyderabadi,Kebabs</p>
+              <p>₹600 for two</p>
+            </div>
+            <div class="loc-dist">
+              <p>Anisabad,Patna</p>
+              <span>6.2 km</span>
+            </div>
+          </div>
+        </div>
+        <div class="localities">
+          <h1>Popular localities in and around Patna</h1>
+          <div class="localities-container">
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Frazer Road Area</h3>
+                <p>152 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Golambar</h3>
+                <p>203 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Sri Krishnapuri</h3>
+                <p>213 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Kankarbagh</h3>
+                <p>544 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Patliputra Colony</h3>
+                <p>237 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Lodipur</h3>
+                <p>61 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Khajpura</h3>
+                <p>313 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box">
+              <div class="localities-name">
+                <h3>Kidwaipuri</h3>
+                <p>118 places</p>
+              </div>
+              <i class="fa-solid fa-angle-right"></i>
+            </div>
+            <div class="localities-box-more">
+              <h3>See more</h3>
+
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="explore">
+          <h1>Explore options near me</h1>
+          <div class="explore-box">
+            <p>Popular cuisines near me</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="explore-box">
+            <p>Popular restaurant types near me</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="explore-box">
+            <p>Explore Dining Cities at Zomato</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+          <div class="explore-box">
+            <p>Restaurants in Popular Locations</p>
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-container-1">
+          <img
+            src="./assets/homepage/asset 4.avif"
+            alt=""
+            class="footer-logo"
+          />
+          <div class="footer-cont1-right">
+            <button class="btn-country">
+              <img src="./assets/homepage/asset 3.webp" alt="" />
+              <p>India</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <button class="btn-lang">
+              <i class="fa-solid fa-globe"></i>
+              <p>English</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </button>
+          </div>
+        </div>
+        <div class="footer-container2">
+          <div class="footer-cont-2">
+            <h4>ABOUT ZOMATO</h4>
+            <p>Who We Are</p>
+            <p>Blog</p>
+            <p>Work With Us</p>
+            <p>Investor Relations</p>
+            <p>Report Fraud</p>
+            <p>Press Kit</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="footer-cont-2">
+            <h4>ZOMAVERSE</h4>
+            <p>Zomato</p>
+            <p>Blinkit</p>
+            <p>District</p>
+            <p>Feeding India</p>
+            <p>Hyperpure</p>
+            <p>Zomato Live</p>
+            <p>Zomaland</p>
+            <p>Weather Union</p>
+          </div>
+          <div class="footer-cont-2">
+            <h4>FOR RESTAURANTS</h4>
+            <p>Partner With Us</p>
+            <p>Apps For You</p>
+          </div>
+          <div class="footer-cont-2">
+            <h4>LEARN MORE</h4>
+            <p>Privacy</p>
+            <p>Security</p>
+            <p></p>
+            <p>Terms</p>
+          </div>
+          <div class="footer-cont-2">
+            <h4>SOCIAL LINKS</h4>
+            <div class="social-link">
+              <a href="https://in.linkedin.com/company/zomato"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.instagram.com/zomato/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://x.com/zomato"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="https://www.youtube.com/zomato"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="https://www.facebook.com/zomato"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+            <a href="https://www.zomato.com/mobile" class="download"
+              ><img src="./assets/homepage/asset 5.webp" alt=""
+            /></a>
+            <a href="https://www.zomato.com/mobile" class="download"
+              ><img src="./assets/homepage/asset 6.webp" alt=""
+            /></a>
+          </div>
+        </div>
+        <p>
+          By continuing past this page, you agree to our Terms of Service,
+          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+          properties of their respective owners. 2008-2025 © Zomato™ Ltd. All
+          rights reserved.
+        </p>
+      </div>
+      <!-- <div class="disclaimer">
+      </div> -->
+    </footer>
+  </body>
 </html>
